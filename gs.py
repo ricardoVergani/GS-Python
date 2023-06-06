@@ -212,6 +212,10 @@ while True:
         print()
 
         if opcaoPrograma == 0:
+            print('''
+            Encerrando Programa...
+            \033[32mSucesso!\033[m
+            ''')
             break
         elif opcaoPrograma == 1:
             escolha_neutralizador()
