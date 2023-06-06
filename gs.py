@@ -47,7 +47,6 @@ def escolha_neutralizador():
     elif pH > 12 and pH <= 14:
         print(f'Jogando solução ácida neutralizadora - {acidos[3]}')
         print()
-
     else:
         print('\033[32mSolo esta com pH adequado!\033[m')
 
